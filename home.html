@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   </head>
   <body>
     <div class="container-fluid bg-black d-flex flex-row align-items-center justify-content-between p-3">
@@ -22,7 +23,7 @@
       <p class="text-light my-0 me-4">DISCOVER MORE</p>
     </div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid ">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#" style="margin-top: 20px"><img src="./asset/Ellipse 7.png" alt="" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -33,7 +34,7 @@
               <a class="nav-link active" aria-current="page" href="#"><p style="font-size: small; margin: 0">HOME</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><p style="font-size: small; margin: 0">SERVICE</p></a>
+              <a class="nav-link" href="#service"><p style="font-size: small; margin: 0">SERVICE</p></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"><p style="font-size: small; margin: 0">ABOUT US</p></a>
@@ -45,41 +46,150 @@
     </nav>
     <!-- main -->
     <main class="d-flex flex-column align-items-center">
-      <div style="height: 3px; background: black; width: 93vw;"></div>
+      <div style="height: 3px; background: black; width: 93vw"></div>
+
       <!-- gambar 1 -->
-      <div id="home" class="container-fluid mt-lg-5 position-relative">
+      <div id="home" class="container-fluid mt-lg-5 position-relative col-12">
         <img src="asset/main1.png" class="container-fluid" alt="foto-main" />
-        <button type="button" class=" btn btn1 btn-light offset  position-absolute start-0 fs-5" >WASH NOW</button>
-
-
-
-
-
-
+        <button type="button" class="btn btn1 btn-light offset position-absolute start-0 fs-5">WASH NOW</button>
       </div>
-      
-      
-
-
-
 
       <!-- service -->
-50
-      <div class="container-fluid">
-        <div class="card" style="width: 18rem">
-          <img src="asset/Rectangle 11.png" class="card-img" alt="..." />
-          <div class="card-img-overlay">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small>Last updated 3 mins ago</small></p>
+
+      <div id="service" class="container-fluid mt-5 d-flex flex-lg-row justify-content-lg-center" style="font-family: 'Istok Web', sans-serif">
+        <img src="asset/service/Group 3.png" alt="" />
+
+        <div class="card" style="width: 20vw; border: none !important; margin-top: 8rem !important">
+          <img src="asset/service/mcimg.png" class="card-img" alt="gambar1" />
+          <div class="card-img-overlay d-flex w-100 p-0 align-items-end">
+            <h5 class="card-title text-center w-100 p-2 m-0 rounded-bottom-4 fst-italic bg-danger bg-opacity-75 text-white" style="margin-top: 5rem">MINOR CLEAN</h5>
+            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small>Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+
+        <div class="card ms-lg-3 me-lg-3" style="width: 20vw; border: none !important">
+          <img src="asset/service/dcimg.png" class="card-img" alt="gambar1" />
+          <div class="card-img-overlay d-flex w-100 p-0 align-items-start">
+            <h5 class="card-title text-center w-100 p-2 m-0 rounded-top-4 fst-italic bg-black bg-opacity-75 text-white">DEEP CLEAN</h5>
+            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+
+        <div class="card" style="width: 20vw; border: none !important; margin-top: 8rem">
+          <img src="asset/service/uyimg.png" class="card-img" alt="gambar1" />
+          <div class="card-img-overlay d-flex w-100 p-0 align-items-end">
+            <h5 class="card-title text-center w-100 p-2 m-0 rounded-bottom-4 fst-italic bg-danger bg-opacity-75 text-white">UNYELLOWING</h5>
+            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+        <img src="asset/service/Group 3.png" alt="" />
+      </div>
+      <div id="service2" class="container-fluid d-flex flex-lg-row justify-content-lg-center" style="font-family: 'Istok Web', sans-serif">
+        <div class="card mt-3" style="width: 20vw; border: none !important">
+          <img src="asset/service/sandal.png" class="card-img" alt="gambar1" />
+          <div class="card-img-overlay d-flex w-100 p-0 align-items-end">
+            <h5 class="card-title text-center w-100 p-2 m-0 rounded-bottom-4 fst-italic bg-black bg-opacity-75 text-white">SANDAL</h5>
+            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small>Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+
+        <div class="card ms-lg-3 me-lg-3" style="width: 20vw; border: none !important; margin-top: -7rem">
+          <img src="asset/service/whitening.png" class="card-img" alt="gambar1" />
+          <div class="card-img-overlay d-flex w-100 p-0 align-items-start">
+            <h5 class="card-title text-center w-100 p-2 m-0 rounded-top-4 fst-italic bg-danger bg-opacity-75 text-white">WHITENING</h5>
+            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+
+        <div class="card mt-3" style="width: 20vw; border: none !important">
+          <img src="asset/service/repair.png" class="card-img" alt="gambar1" />
+          <div class="card-img-overlay d-flex w-100 p-0 align-items-end">
+            <h5 class="card-title text-center w-100 p-2 m-0 rounded-bottom-4 fst-italic bg-black bg-opacity-75 text-white">REPAIR</h5>
+            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p> -->
           </div>
         </div>
       </div>
 
       <!-- testimoni -->
+      <section class="mt-5 overflow-hidden">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="col-12 d-flex justify-content-start">
+              <div class="swiper-slide m-3 position-relative">
+                <div class="swiper-slide-container">
+                  <img src="asset/carousel/cr1.png" alt="" />
+                  <div class="overlay position-absolute">
+                    <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                      <h5>TESTIMONI</h5>
+                      <span>DEEP CLEANING</span>
+                      <h6>IDR.40.000</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide"><div class="swiper-slide-container">Slide 2</div></div>
+            <div class="swiper-slide"><div class="swiper-slide-container">Slide 3</div></div>
+            <div class="swiper-slide"><div class="swiper-slide-container">Slide 4</div></div>
+            <div class="swiper-slide"><div class="swiper-slide-container">Slide 5</div></div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
     </main>
     <footer></footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script type="module" src="home.js"></script>
   </body>
 </html>
+
+<!-- <section id="testimoni" class="mt-5 overflow-hidden">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-start">
+          <div class="carousel-fitur me-3 position-relative">
+            <img src="asset/carousel/cr1.png" alt="" />
+
+            <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+              <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                <h5>TESTIMONI</h5>
+                <span>DEEP CLEANING</span>
+                <h6>IDR.40.000</h6>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-fitur me-3 position-relative">
+            <img src="asset/carousel/cr1.png" alt="" />
+
+            <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+              <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                <h5>TESTIMONI</h5>
+                <span>DEEP CLEANING</span>
+                <h6>IDR.40.000</h6>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-fitur me-3 position-relative">
+            <img src="asset/carousel/cr1.png" alt="" />
+
+            <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100">
+              <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                <h5>TESTIMONI</h5>
+                <span>DEEP CLEANING</span>
+                <h6>IDR.40.000</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
